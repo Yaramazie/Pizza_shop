@@ -3,6 +3,7 @@
 
 {% load static %}
 <head>
+        <title> {% block title %}ALBERTO'S PIZZA{% endblock %} </title>
     <meta charset="UTF-8">
 
     <!-- for mobile devices -->
@@ -12,7 +13,7 @@
     <!-- Favicon Icon -->
     <link rel="shortcut icon" href="{% static 'images/favicon.ico' %}" type="image/vnd.microsoft.icon" />
     <link rel="icon" href="{% static 'images/favicon.ico' %}" type="image/x-ico" />
-    <title>ALBERTOS - Pizza & Restaurant HTML Template</title>
+
 
     <link rel='stylesheet' href='{% static "rs-slider/css/settings.css" %}' type='text/css' media='all' />
     <link rel='stylesheet' href='{% static "css/animsition.css" %}' type='text/css' media='all' />
